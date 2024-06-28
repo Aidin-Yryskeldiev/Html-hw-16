@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Home Work №16</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div class="papa">
+			<div class="syn">
+				<img
+					class="photo"
+					src="data:image/jpeg;base64,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"
+					alt="" />
+				<p class="product_name">Product Name</p>
+				<div class="dot">
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<p class="money">$19.99</p>
+				</div>
+			</div>
+			<div class="syn">
+				<img
+					class="photo"
+					src="https://static8.depositphotos.com/1034300/1036/i/450/depositphotos_10367607-stock-photo-red-high-heel-shoes.jpg"
+					alt="" />
+				<p class="product_name">Product Name</p>
+				<div class="dot">
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<p class="money">$24.99</p>
+				</div>
+			</div>
+
+			<div class="syn">
+				<img
+					class="photo"
+					src="https://img.freepik.com/free-photo/elegant-black-leather-shoes-for-men-on-black-background-photo-studio-style-ai-generative_123827-23442.jpg"
+					alt="" />
+				<p class="product_name">Product Name</p>
+				<div class="dot">
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<p class="money">$39.99</p>
+				</div>
+			</div>
+
+			<div class="syn">
+				<img
+					class="photo"
+					src="https://restokk.ru/images/catalog/9661/krossovki-muzhskie-nike-air-max-2017-1.jpg?v=824"
+					alt="" />
+				<p class="product_name">Product Name</p>
+				<div class="dot">
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<p class="money">$12.99</p>
+				</div>
+			</div>
+
+			<div class="syn">
+				<img
+					class="photo"
+					height="185px"
+					src="https://media.istockphoto.com/id/458727719/es/foto/rolex-deepsea-de-reloj-de-pulsera.jpg?s=612x612&w=0&k=20&c=kzOcgr8fpdWbJrF0TnNEwu6qGvnKaetCbxCJa4FExms="
+					alt="" />
+				<p class="product_name">Product Name</p>
+				<div class="dot">
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<p class="money">$9.99</p>
+				</div>
+			</div>
+
+			<div class="syn">
+				<img
+					class="photo"
+					src="https://aromacode.ru/wa-data/public/photos/76/19/1976/1976.970.jpg"
+					alt="" />
+				<p class="product_name">Product Name</p>
+				<div class="dot">
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="yellow" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<svg
+						width="14"
+						height="16"
+						viewBox="0 0 16 16"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12 8C12 10.2091 10.2091 12 8 12C5.79086 12 4 10.2091 4 8C4 5.79086 5.79086 4 8 4C10.2091 4 12 5.79086 12 8Z"
+							fill="white" />
+					</svg>
+					<p class="money">$29.99</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
